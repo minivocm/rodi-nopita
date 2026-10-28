@@ -15,11 +15,11 @@ const COUPLE_CONFIG = {
   enabled: true,
 
   groom: {
-    shortName: "Hafiz",
-    displayName: "ABDUL HAFIZ BAHRAIN",
-    fullName: "ABDUL HAFIZ BAHRAIN, S.Kom",
-    fatherName: "ABU ABDUL AZIZ JALALAIN",
-    motherName: "NURILAM",
+    shortName: "Rodi",
+    displayName: "MUHAMAD RODI",
+    fullName: "MUHAMAD RODI, S.Kom., M.Kom",
+    fatherName: "MAROAN",
+    motherName: "HJ. NIKMAH",
     childLabel: "Putra dari",
 
     // Foto pada card mempelai.
@@ -27,18 +27,18 @@ const COUPLE_CONFIG = {
     // shape: "rounded" | "circle" | "soft-square"
     photo: {
       enabled: true,
-      src: "assets/images/couple/hafiz-4x6.jpg",
-      alt: "Foto Hafiz",
+      src: "assets/images/couple/rodi-4x6.jpg",
+      alt: "Foto Rodi",
       shape: "rounded",
     },
   },
 
   bride: {
-    shortName: "Ayudita",
-    displayName: "JULIYANTIKA AYUDITA PUTRI",
-    fullName: "JULIYANTIKA AYUDITA PUTRI, S.Kom",
-    fatherName: "SUMEKAR",
-    motherName: "NURHASIMIN MARHAYATUN",
+    shortName: "Nopita",
+    displayName: "NOPITA SULISTIA WATI",
+    fullName: "NOPITA SULISTIA WATI, S.M",
+    fatherName: "HAERUMAN",
+    motherName: "ATIAH",
     childLabel: "Putri dari",
 
     // Foto pada card mempelai.
@@ -46,8 +46,8 @@ const COUPLE_CONFIG = {
     // shape: "rounded" | "circle" | "soft-square"
     photo: {
       enabled: true,
-      src: "assets/images/couple/ayu-4x6.jpg",
-      alt: "Foto Ayudita",
+      src: "assets/images/couple/nopita-4x6.jpg",
+      alt: "Foto Nopita",
       shape: "rounded",
     },
   },

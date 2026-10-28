@@ -25,7 +25,7 @@ const NAVIGATION_CONFIG = {
     { enabled: true, id: "hero", label: "Home", icon: "⌂" },
     { enabled: true, id: "event", label: "Acara", icon: "♡" },
     { enabled: true, id: "location", label: "Lokasi", icon: "⌖" },
-    { enabled: true, id: "gallery", label: "Galeri", icon: "▧" },
+    { enabled: false, id: "gallery", label: "Galeri", icon: "▧" },
     { enabled: true, id: "rsvp", label: "RSVP", icon: "✓" },
     { enabled: true, id: "wishes", label: "Doa", icon: "✦" }
   ]

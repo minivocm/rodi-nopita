@@ -18,11 +18,11 @@ const MEDIA_CONFIG = {
 
   images: {
     enabled: true,
-    cover: "assets/images/cover.jpeg",
-    main: "assets/images/bride-groom.jpeg",
-    backgroundMobile: "assets/images/background-mobile.jpeg",
-    backgroundDesktop: "assets/images/background-desktop.jpeg",
-    fallback: "assets/images/background-mobile.jpeg",
+    cover: "assets/images/cover-rodi-nopita.jpeg",
+    main: "assets/images/hero-rodi-nopita.jpeg",
+    backgroundMobile: "assets/images/hero-rodi-nopita.jpeg",
+    backgroundDesktop: "assets/images/hero-rodi-nopita.jpeg",
+    fallback: "assets/images/hero-rodi-nopita.jpeg",
 
     // Pengaturan background foto pada bagian Hero.
     // imageOpacity: semakin besar semakin jelas foto.
@@ -49,7 +49,7 @@ const MEDIA_CONFIG = {
   },
 
   gallery: {
-    enabled: true,
+    enabled: false,
     /*
       MODE GALLERY YANG BISA DIGUNAKAN:
 

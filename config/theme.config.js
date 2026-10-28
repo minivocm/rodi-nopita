@@ -11,7 +11,7 @@ OPSI PENGATURAN SIAP PAKAI:
 const THEME_CONFIG = {
   enabled: true,
 
-  name: "Soft Butter Wedding",
+  name: "Calm Blue Wedding",
   mode: "light",
 
   layout: {

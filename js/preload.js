@@ -94,7 +94,7 @@ function collectPreloadAssets() {
     (media.gallery?.images || []).forEach(src => add("image", src));
   }
 
-  if (cfg.assets?.video) {
+  if (cfg.assets?.video && videoCfg.enabled !== false) {
     const videoSources = [
       videoCfg.source?.mobile,
       videoCfg.source?.desktop,

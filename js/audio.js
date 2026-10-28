@@ -50,11 +50,15 @@ function showAudioButton() {
   const btn = $("#audioToggle");
   if (!btn || !safeEnabled(window.AUDIO_CONFIG, false) || !AUDIO_CONFIG.button?.enabled) return;
 
-  btn.classList.remove("hidden", "audio-hidden");
-  // Delay kecil supaya browser menghitung state awal dulu, animasi jadi jalan.
-  requestAnimationFrame(() => {
-    btn.classList.add("audio-show");
-  });
+  const delay = Number(AUDIO_CONFIG.button.showDelayAfterOpen ?? 0);
+
+  setTimeout(() => {
+    btn.classList.remove("hidden", "audio-hidden");
+    // Delay kecil supaya browser menghitung state awal dulu, animasi jadi jalan.
+    requestAnimationFrame(() => {
+      btn.classList.add("audio-show");
+    });
+  }, delay);
 }
 
 function hideAudioButton() {

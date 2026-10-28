@@ -13,12 +13,12 @@ const LOCATION_CONFIG = {
   enabled: true,
 
   venueName: "Lokasi Acara",
-  address: "Masjid Al-Baitil Mabrur Ruket, Semparu",
-  mapsUrl: "https://maps.app.goo.gl/oGhyVhrudGG7YhWAA",
+  address: "Pengendong, Dusun Borok, Desa Darmaji, Kopang, Lombok Tengah",
+  mapsUrl: "https://maps.app.goo.gl/dtDditgrefpGBshq5",
 
   // Gunakan URL src iframe saja, bukan tag iframe lengkap.
   embedMapUrl:
-    "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d417.54745012538353!2d116.34335193837761!3d-8.660688708501906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sid!4v1780833417950!5m2!1sen!2sid",
+    "https://maps.google.com/maps?q=-8.678096255009734,116.35407144506858&z=17&output=embed",
 
   buttons: {
     openMaps: {

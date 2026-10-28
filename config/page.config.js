@@ -18,7 +18,7 @@ const PAGE_CONFIG = {
   // Bisa diganti ke file lain, misalnya: assets/icons/logo.png
   logo: {
     enabled: true,
-    favicon: "assets/images/cover.jpeg",
-    appleTouchIcon: "assets/images/cover.jpeg"
+    favicon: "assets/icons/favicon.png",
+    appleTouchIcon: "assets/icons/apple-touch-icon.png"
   }
 };

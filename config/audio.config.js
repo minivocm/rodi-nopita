@@ -9,20 +9,20 @@ OPSI PENGATURAN SIAP PAKAI:
 */
 
 const AUDIO_CONFIG = {
-  // Audio terpisah dimatikan.
-  // Backsound memakai audio dari video intro.
+  // Dimatikan karena backsound memakai audio dari video pembuka (config/video.config.js).
+  // Untuk mode MP3 saja: set enabled ke true di sini dan enabled ke false di video.config.js.
   enabled: false,
 
   file: "assets/audio/music.mp3",
   sources: ["assets/audio/music.mp3"],
 
   title: "Wedding Music",
-  autoplayAfterOpen: false,
+  autoplayAfterOpen: true,
   loop: true,
   volume: 0.55,
 
   button: {
-    enabled: false,
+    enabled: true,
     position: "top-right",
     showDelayAfterOpen: 260,
     showWhenDisabled: false

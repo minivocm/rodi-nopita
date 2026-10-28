@@ -111,6 +111,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   openBtn?.addEventListener("click", async () => {
+    // Putar MP3 langsung di dalam klik, sebelum await, supaya tidak diblokir autoplay browser (terutama iPhone).
+    startInvitationAudio();
+
     await waitInvitationPreloadBeforeOpen();
 
     const cover = $("#cover");
@@ -122,7 +125,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const coverHideDelay = MAIN_CONFIG.cover.hideDelay || 650;
     const startDelay = Number(smooth.startDelay ?? 120);
-    const introDuration = videoCfg?.mode === "intro-video"
+    const introVideoActive = videoCfg?.enabled !== false && videoCfg?.mode === "intro-video" && intro.enabled !== false;
+    const introDuration = introVideoActive
       ? Number(intro.duration ?? 6500)
       : 0;
 

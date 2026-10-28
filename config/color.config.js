@@ -6,31 +6,31 @@ OPSI PENGATURAN SIAP PAKAI:
 - colors.background, backgroundSoft
 - colors.textPrimary, textSecondary
 - colors.cardBackground, border, glow, overlay
-- Gunakan warna HEX seperti "#F6D365" atau rgba seperti "rgba(255,255,255,.74)".
+- Gunakan warna HEX seperti "#7FB3D5" atau rgba seperti "rgba(255,255,255,.74)".
 */
 
 const COLOR_CONFIG = {
   enabled: true,
 
-  paletteName: "Butter Yellow Wedding",
+  paletteName: "Calm Blue Wedding",
 
   colors: {
-    primary: "#F6D365",
-    primarySoft: "#FFF3B8",
-    primaryDeep: "#D8A928",
-    secondary: "#FFF8E1",
-    accent: "#B88A2A",
-    background: "#FFFDF7",
-    backgroundSoft: "#FFF7DA",
-    textPrimary: "#3B2B14",
-    textSecondary: "#75613C",
+    primary: "#7FB3D5",
+    primarySoft: "#D6EAF8",
+    primaryDeep: "#3A7CA5",
+    secondary: "#EAF4FB",
+    accent: "#2E6A8E",
+    background: "#F7FBFE",
+    backgroundSoft: "#E8F2FA",
+    textPrimary: "#1F3447",
+    textSecondary: "#50677D",
     cardBackground: "rgba(255, 255, 255, 0.74)",
-    cardBackgroundStrong: "rgba(255, 253, 247, 0.92)",
-    border: "rgba(216, 169, 40, 0.28)",
-    buttonBackground: "#D8A928",
+    cardBackgroundStrong: "rgba(247, 251, 254, 0.92)",
+    border: "rgba(58, 124, 165, 0.28)",
+    buttonBackground: "#3A7CA5",
     buttonText: "#FFFFFF",
-    glow: "rgba(246, 211, 101, 0.55)",
-    overlay: "rgba(38, 25, 7, 0.36)",
+    glow: "rgba(127, 179, 213, 0.55)",
+    overlay: "rgba(12, 30, 48, 0.36)",
     success: "#2E7D32",
     error: "#B3261E",
     inputBackground: "rgba(255, 255, 255, 0.85)"

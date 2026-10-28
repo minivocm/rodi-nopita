@@ -39,7 +39,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255,253,247,.68), rgba(255,247,218,.96));
+  background: linear-gradient(180deg, rgba(247,251,254,.68), rgba(232,242,250,.96));
   z-index: 1;
 }
 
@@ -121,7 +121,7 @@
   color: var(--color-primary-deep);
   line-height: .82;
   margin: 22px 0 18px;
-  text-shadow: 0 12px 32px rgba(139, 95, 15, .16);
+  text-shadow: 0 12px 32px rgba(30,80,120, .16);
 }
 
 .hero-date {
@@ -141,7 +141,7 @@
   position: absolute;
   pointer-events: none;
   opacity: .5;
-  filter: drop-shadow(0 12px 28px rgba(216,169,40,.18));
+  filter: drop-shadow(0 12px 28px rgba(58,124,165,.18));
   z-index: 1;
 }
 
@@ -163,7 +163,7 @@
   background: rgba(255,255,255,.74);
   border: 1px solid var(--color-border);
   border-radius: 999px;
-  box-shadow: 0 18px 50px rgba(40, 30, 8, .2);
+  box-shadow: 0 18px 50px rgba(15,35,55, .2);
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
 }
@@ -237,8 +237,8 @@ video.hero-bg {
   z-index: 1;
   pointer-events: none;
   background:
-    linear-gradient(180deg, rgba(255,253,247,.38), rgba(255,247,218,.70)),
-    rgba(38, 25, 7, .10);
+    linear-gradient(180deg, rgba(247,251,254,.38), rgba(232,242,250,.70)),
+    rgba(12,30,48, .10);
 }
 
 
@@ -252,11 +252,11 @@ video.hero-bg {
   z-index: 1002;
   width: 48px;
   height: 48px;
-  border: 1px solid rgba(216, 169, 40, .28);
+  border: 1px solid rgba(58,124,165, .28);
   border-radius: 50%;
   background: rgba(255, 255, 255, .46);
   color: var(--color-text-primary);
-  box-shadow: 0 14px 36px rgba(40, 30, 8, .16);
+  box-shadow: 0 14px 36px rgba(15,35,55, .16);
   font-weight: 900;
   backdrop-filter: blur(18px) saturate(145%);
   -webkit-backdrop-filter: blur(18px) saturate(145%);
@@ -268,7 +268,7 @@ video.hero-bg {
 }
 
 .floating-audio.is-playing {
-  background: rgba(246, 211, 101, .52);
+  background: rgba(127,179,213, .52);
 }
 
 .floating-audio.audio-top-right {
@@ -310,11 +310,11 @@ video.hero-bg {
   z-index: 1002;
   width: 48px;
   height: 48px;
-  border: 1px solid rgba(216, 169, 40, .28);
+  border: 1px solid rgba(58,124,165, .28);
   border-radius: 50%;
   background: rgba(255, 255, 255, .46);
   color: var(--color-text-primary);
-  box-shadow: 0 14px 36px rgba(40, 30, 8, .16);
+  box-shadow: 0 14px 36px rgba(15,35,55, .16);
   font-weight: 900;
   backdrop-filter: blur(18px) saturate(145%);
   -webkit-backdrop-filter: blur(18px) saturate(145%);
@@ -326,7 +326,7 @@ video.hero-bg {
 }
 
 .floating-audio.is-playing {
-  background: rgba(246, 211, 101, .52);
+  background: rgba(127,179,213, .52);
 }
 
 .floating-audio.audio-top-right {
@@ -370,10 +370,10 @@ video.hero-bg {
   background:
     linear-gradient(
       180deg,
-      rgba(255,253,247, calc(var(--hero-gradient-opacity, .42) * .72)),
-      rgba(255,247,218, var(--hero-gradient-opacity, .42))
+      rgba(247,251,254, calc(var(--hero-gradient-opacity, .42) * .72)),
+      rgba(232,242,250, var(--hero-gradient-opacity, .42))
     ),
-    rgba(38, 25, 7, var(--hero-overlay-opacity, .28));
+    rgba(12,30,48, var(--hero-overlay-opacity, .28));
 }
 
 
@@ -514,10 +514,10 @@ video.hero-bg {
 
 @keyframes audioPlayingPulse {
   0%, 100% {
-    box-shadow: 0 14px 36px rgba(40, 30, 8, .16);
+    box-shadow: 0 14px 36px rgba(15,35,55, .16);
   }
   50% {
-    box-shadow: 0 14px 42px rgba(216, 169, 40, .34);
+    box-shadow: 0 14px 42px rgba(58,124,165, .34);
   }
 }
 
@@ -651,8 +651,8 @@ video.hero-bg {
 
 .cover-card {
   background: rgba(var(--backdrop-cover-card-tint, 255, 255, 255), var(--backdrop-cover-card-opacity, .56)) !important;
-  border: 1px solid rgba(216, 169, 40, var(--backdrop-cover-card-border-opacity, .30)) !important;
-  box-shadow: 0 20px 70px rgba(40, 30, 8, var(--backdrop-cover-card-shadow, .20)) !important;
+  border: 1px solid rgba(58,124,165, var(--backdrop-cover-card-border-opacity, .30)) !important;
+  box-shadow: 0 20px 70px rgba(15,35,55, var(--backdrop-cover-card-shadow, .20)) !important;
   backdrop-filter: blur(var(--backdrop-cover-card-blur, 26px)) saturate(145%) !important;
   -webkit-backdrop-filter: blur(var(--backdrop-cover-card-blur, 26px)) saturate(145%) !important;
 }
@@ -734,11 +734,11 @@ video.hero-bg {
   place-items: center;
   width: 48px;
   height: 48px;
-  border: 1px solid rgba(216, 169, 40, .30);
+  border: 1px solid rgba(58,124,165, .30);
   border-radius: 999px;
   background: rgba(255, 255, 255, .48);
   color: var(--color-text-primary);
-  box-shadow: 0 14px 36px rgba(40, 30, 8, .16);
+  box-shadow: 0 14px 36px rgba(15,35,55, .16);
   font-weight: 900;
   backdrop-filter: blur(18px) saturate(145%);
   -webkit-backdrop-filter: blur(18px) saturate(145%);
@@ -772,7 +772,7 @@ video.hero-bg {
 }
 
 .video-audio-toggle.is-playing {
-  background: rgba(246, 211, 101, .52);
+  background: rgba(127,179,213, .52);
   animation: videoAudioPulse 1.8s ease-in-out infinite;
 }
 
@@ -798,10 +798,10 @@ video.hero-bg {
 
 @keyframes videoAudioPulse {
   0%, 100% {
-    box-shadow: 0 14px 36px rgba(40, 30, 8, .16);
+    box-shadow: 0 14px 36px rgba(15,35,55, .16);
   }
   50% {
-    box-shadow: 0 14px 42px rgba(216, 169, 40, .34);
+    box-shadow: 0 14px 42px rgba(58,124,165, .34);
   }
 }
 
@@ -1001,8 +1001,8 @@ body.preview-open {
 /* Cover card glass lebih kuat */
 .cover-card {
   background: rgba(var(--backdrop-cover-card-tint, 255, 255, 255), var(--backdrop-cover-card-opacity, .38)) !important;
-  border: 1px solid rgba(216, 169, 40, var(--backdrop-cover-card-border-opacity, .34)) !important;
-  box-shadow: 0 24px 78px rgba(40, 30, 8, var(--backdrop-cover-card-shadow, .18)) !important;
+  border: 1px solid rgba(58,124,165, var(--backdrop-cover-card-border-opacity, .34)) !important;
+  box-shadow: 0 24px 78px rgba(15,35,55, var(--backdrop-cover-card-shadow, .18)) !important;
   backdrop-filter: blur(var(--backdrop-cover-card-blur, 34px)) saturate(170%) !important;
   -webkit-backdrop-filter: blur(var(--backdrop-cover-card-blur, 34px)) saturate(170%) !important;
 }
@@ -1036,12 +1036,12 @@ body.preview-open {
 /* Hero dibuat cerah, bukan gelap */
 .hero-section::before {
   background:
-    linear-gradient(180deg, rgba(255,253,247,.24), rgba(255,248,225,.42)) !important;
+    linear-gradient(180deg, rgba(247,251,254,.24), rgba(234,244,251,.42)) !important;
 }
 
 .hero-section::after {
   background:
-    linear-gradient(180deg, rgba(255,253,247,.18), rgba(255,247,218,.34)),
+    linear-gradient(180deg, rgba(247,251,254,.18), rgba(232,242,250,.34)),
     rgba(255, 255, 255, .08) !important;
 }
 
@@ -1165,7 +1165,7 @@ body.invitation-opened .hero-bg {
 /* V35 love ornaments */
 .ornament {
   opacity: .72;
-  filter: drop-shadow(0 14px 30px rgba(216,169,40,.22));
+  filter: drop-shadow(0 14px 30px rgba(58,124,165,.22));
 }
 
 .ornament.one {

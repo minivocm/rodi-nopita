@@ -15,7 +15,7 @@ const GOOGLE_SHEET_CONFIG = {
 
   // URL Web App Google Apps Script.
   scriptUrl:
-    "https://script.google.com/macros/s/AKfycbzmi1pE34i1VuQ6_937IVHv8P8-pZVJK8IZ5-iONpYoTnS0ZBfcyXD9HU0pGbMhSE6QKw/exec",
+    "https://script.google.com/macros/s/AKfycbyJ996RgB9Cqc6Q5khKNFp9zDoOtUX5_nieMmO8PX19SuiqhOisnnloIgfx-HOMphoE1A/exec",
 
   sheets: {
     rsvp: "RSVP",

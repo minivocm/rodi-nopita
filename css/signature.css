@@ -147,13 +147,13 @@
 /* V6 FIX: warna signature dipisah agar fillColor dari config benar-benar bekerja */
 .signature-svg .signature-stroke-text,
 .signature-title-svg .signature-stroke-text {
-  stroke: var(--signature-stroke, #D8A928) !important;
+  stroke: var(--signature-stroke, #3A7CA5) !important;
   fill: transparent !important;
 }
 
 .signature-svg .signature-fill-text,
 .signature-title-svg .signature-fill-text {
-  fill: var(--signature-fill, #D8A928) !important;
+  fill: var(--signature-fill, #3A7CA5) !important;
   stroke: transparent !important;
   filter: none !important;
   opacity: 0;
@@ -163,6 +163,6 @@
 
 .signature-svg .signature-love-path,
 .signature-title-svg .signature-love-path {
-  stroke: var(--signature-stroke, #D8A928) !important;
+  stroke: var(--signature-stroke, #3A7CA5) !important;
   fill: transparent !important;
 }

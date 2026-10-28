@@ -13,7 +13,7 @@ const SECTION_CONFIG = {
   event: { enabled: true },
   countdown: { enabled: true },
   location: { enabled: true },
-  gallery: { enabled: true },
+  gallery: { enabled: false },
   loveStory: { enabled: false },
   gift: { enabled: false },
   rsvp: { enabled: true },

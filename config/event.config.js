@@ -17,9 +17,9 @@ const EVENT_CONFIG = {
   timezoneText: "WITA / GMT+8",
 
   mainDate: {
-    raw: "2026-06-11",
-    dayName: "Kamis",
-    displayDate: "Kamis, 11 Juni 2026"
+    raw: "2026-10-31",
+    dayName: "Sabtu",
+    displayDate: "Sabtu, 31 Oktober 2026"
   },
 
   akad: {
@@ -32,13 +32,13 @@ const EVENT_CONFIG = {
   reception: {
     enabled: true,
     title: "Resepsi",
-    time: "10:00 WITA",
-    displayTime: "10:00 WITA - Selesai"
+    time: "11:00 WITA",
+    displayTime: "11:00 WITA - Selesai"
   },
 
   countdown: {
     enabled: true,
-    targetDateTime: "2026-06-11T09:00:00+08:00",
+    targetDateTime: "2026-10-31T09:00:00+08:00",
     expiredText: "Acara telah berlangsung"
   }
 };

@@ -77,9 +77,9 @@ const SIGNATURE_CONFIG = {
     // Pilihan:
     // "use-theme-accent"
     // "use-border-color"
-    // atau isi warna langsung, contoh "#D8A928"
-    strokeColor: "#D8A928",
-    fillColor: "#D8A928",
+    // atau isi warna langsung, contoh "#3A7CA5"
+    strokeColor: "#3A7CA5",
+    fillColor: "#3A7CA5",
 
     strokeWidth: 2.8,
     fillOpacity: 1,

@@ -12,6 +12,7 @@ OPSI PENGATURAN SIAP PAKAI:
 */
 
 const VIDEO_CONFIG = {
+  // false = tanpa video pembuka, musik memakai MP3 dari config/audio.config.js
   enabled: true,
 
   // Video intro muncul setelah tombol "Buka Undangan" ditekan.
@@ -23,7 +24,7 @@ const VIDEO_CONFIG = {
     enabled: true,
 
     // Lama video tampil sebelum fade out.
-    duration: 48000,
+    duration: 62000,
 
     // Transisi cover ke video.
     fadeInDuration: 1000,
@@ -113,6 +114,6 @@ const VIDEO_CONFIG = {
       "assets/video/background.mp4",
     ],
 
-    fallbackImage: "assets/images/background-mobile.jpeg",
+    fallbackImage: "assets/images/hero-rodi-nopita.jpeg",
   },
 };
