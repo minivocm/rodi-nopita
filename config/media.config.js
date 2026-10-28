@@ -63,25 +63,8 @@ const MEDIA_CONFIG = {
     */
     mode: "coverflow",
     preview: true,
-    // Nama file gallery default: gallery_1.jpeg sampai gallery_15.jpeg
-    // Simpan semua foto di folder: assets/images/gallery/
-    images: [
-      // "assets/images/gallery/gallery_1.jpeg",
-      // "assets/images/gallery/gallery_2.jpeg",
-      "assets/images/gallery/gallery_3.jpeg",
-      "assets/images/gallery/gallery_4.jpeg",
-      // "assets/images/gallery/gallery_5.jpeg",
-      // "assets/images/gallery/gallery_6.jpeg",
-      // "assets/images/gallery/gallery_7.jpeg",
-      "assets/images/gallery/gallery_8.jpeg",
-      "assets/images/gallery/gallery_9.jpeg",
-      // "assets/images/gallery/gallery_10.jpeg",
-      "assets/images/gallery/gallery_11.jpeg",
-      // "assets/images/gallery/gallery_12.jpeg",
-      // "assets/images/gallery/gallery_13.jpeg",
-      // "assets/images/gallery/gallery_14.jpeg",
-      "assets/images/gallery/gallery_15.jpeg",
-    ],
+    // Isi dengan path foto, contoh: "assets/images/gallery/foto-1.jpeg"
+    images: [],
   },
 
   ornaments: {
